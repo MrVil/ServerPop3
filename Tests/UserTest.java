@@ -5,7 +5,7 @@
  */
 package Tests;
 
-import ServerPop3.ServerPop3.User;
+import ServerPop3.User;
 
 /**
  *
@@ -22,6 +22,6 @@ public class UserTest {
             System.out.println("Message " + i + " : \n" +  u.getMessage(i).getText());
         u.setMarkDeleted(0);
         u.disconnect();
-        
+
     }
 }
